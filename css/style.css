@@ -52,8 +52,13 @@ a .page-number {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
  }
+
+ img, h1{
+    max-height: 100%;
+    max-width: 100%;
+}
 
  h1{
     color: yellow;
