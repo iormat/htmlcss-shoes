@@ -26,22 +26,40 @@ section {
 }
 
 /* nav rules */
+.nav_container {
+    position: fixed;
+    z-index: 999;
+    top: 30px;
+    right: 10px;
+}
 
+a .page-number {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 30px;
+    background-color: #fff;    
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 30px;
+    padding: 10px;
+    text-align: center;
+}
 
 /* content rules */
  .content{
-     position: absolute;
-     top: 50%;
-     left: 50%;
-     transform: translate(-50%, -50%)
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
  }
 
  h1{
-     color: yellow;
-     font-size: 50px;
-     text-align: center;
+    color: yellow;
+    font-size: 50px;
+    text-align: center;
  }
  #third h1{
     color: green;
-
  }
